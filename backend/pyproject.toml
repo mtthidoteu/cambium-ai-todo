@@ -1,0 +1,35 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Matthieu B", email = "matthieu@jaseroque.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "psycopg[binary]>=3.2.9",
+    "pydantic-settings>=2.10.1",
+    "sqlalchemy>=2.0.43",
+    "uvicorn[standard]>=0.35.0",
+]
+
+[project.scripts]
+backend = "backend:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.1.0",
+    "ruff>=0.12.11",
+    "ty>=0.0.1a19",
+]
