@@ -164,18 +164,16 @@ docker compose -f docker-compose.prod.yml exec postgres psql -U todouser -d task
 
 ## 🧪 Testing
 
-### Backend Tests
 ```bash
-cd backend
-uv run pytest                    # Run all tests
-uv run pytest -v                # Verbose output
-uv run pytest app/tests/test_tasks.py  # Run specific test file
+make test
 ```
 
-Test coverage includes:
-- Task creation and listing
-- Error handling (404 responses)
-- Async HTTP client testing with httpx
+### Backend Tests
+```bash
+make test-backend
+```
 
 ### Frontend Testing
-No test framework configured yet. Uses TypeScript for compile-time validation.
+```bash
+make test-frontend
+```

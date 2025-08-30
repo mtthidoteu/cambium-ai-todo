@@ -1,0 +1,90 @@
+# General
+**/.DS_Store
+**/Thumbs.db
+**/.vscode
+**/.idea
+**/*.swp
+**/*.swo
+**/*~
+
+# Git
+**/.git
+**/.gitignore
+
+# Documentation
+**/README*.md
+**/CHANGELOG*.md
+**/LICENSE
+**/CONTRIBUTING.md
+
+# CI/CD
+**/.github
+**/.gitlab-ci.yml
+**/Jenkinsfile
+
+# Frontend specific
+frontend/node_modules
+frontend/dist
+frontend/build
+frontend/.vite
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+frontend/.npm
+frontend/.eslintcache
+frontend/.stylelintcache
+
+# Backend specific
+backend/__pycache__
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/**/__pycache__
+backend/.Python
+backend/env
+backend/venv
+backend/.venv
+backend/ENV
+backend/env.bak
+backend/venv.bak
+backend/.pytest_cache
+backend/.coverage
+backend/htmlcov
+backend/.tox
+backend/.mypy_cache
+backend/.dmypy.json
+backend/dmypy.json
+backend/celerybeat-schedule
+backend/*.egg-info
+backend/dist
+backend/build
+
+# Database files
+backend/tasks.db
+backend/tasks.db-journal
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+**/logs
+**/*.log
+
+# Testing
+**/coverage
+**/.nyc_output
+
+# Temporary files
+**/tmp
+**/temp
+**/.tmp

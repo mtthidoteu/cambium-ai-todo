@@ -1,0 +1,166 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.prod
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.npm
+frontend/.pnpm-store/
+frontend/.yarn/cache
+frontend/.yarn/unplugged
+frontend/.yarn/build-state.yml
+frontend/.yarn/install-state.gz
+frontend/.pnp.*
+
+# All npm/yarn/pnpm artifacts (global patterns)
+node_modules/
+dist/
+build/
+*.tgz
+*.tar.gz
+yarn.lock
+pnpm-lock.yaml
+.vite/
+.turbo/
+.rollup.cache/
+.rpt2_cache/
+.rts2_cache*/
+.cache/
+.parcel-cache/
+.nuxt/
+.next/
+.out/
+.vercel/
+.netlify/
+.astro/
+
+# Backend Python files
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/**/__pycache__/
+backend/.Python
+backend/env/
+backend/venv/
+backend/.venv/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/.mypy_cache/
+backend/.dmypy.json
+backend/dmypy.json
+backend/celerybeat-schedule
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Database files
+backend/tasks.db
+backend/tasks.db-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker volumes and data
+docker-data/
+postgres-data/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build output
+.nuxt
+
+# Build tool specific files
+# Vite
+**/vite.config.*.timestamp-*
+**/.vite-inspect/
+
+# Webpack
+.webpack/
+
+# Rollup
+.rollup.cache/
+
+# ESBuild
+.esbuild/
+
+# SWC
+.swc/
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+.tmp
+.temp
